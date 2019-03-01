@@ -16,6 +16,16 @@
   <li>检测之前有没有关机任务，有则取消后执行批处理语句，没有则直接执行</li>
   <li>设置取消关机任务功能</li>
 </ul>
+ <p><b>使用方式：</b></p>
+ <ol type="I">
+ <li>直接在python环境下运行</li>
+ <li>使用pyinstaller编译为exe文件运行
+  <ol type="i">
+   <li>安装pyinstaller（需要python环境）:<br>在命令行中执行<code>pip install pyinstaller</code></li>
+   <li>用命令行打开文件所在目录<br>执行<code>pyinstaller -w -F py文件地址</code><br>其中 -F指打包成独立exe文件，-w指屏蔽命令行界面</li>
+  </ol>
+ </li>
+</ol>
 <p><b>图片：</b></p>
 
 <img src="https://s2.ax1x.com/2019/03/01/kbGPcd.png" alt="kbGPcd.png" border="0">
